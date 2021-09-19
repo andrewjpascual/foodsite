@@ -1,8 +1,11 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//import pages & components
 import Home from "../src/pages/Home";
+import Products from "./pages/Products";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
@@ -11,6 +14,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/products" exact component={Products} />
         </Switch>
       </Router>
     </>

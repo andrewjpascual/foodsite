@@ -46,7 +46,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Products
               </Link>
             </li>
             <li>
