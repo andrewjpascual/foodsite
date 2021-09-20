@@ -10,9 +10,7 @@ function Footer() {
         <p className="footer-subscription-heading">
           Join our weekly newsletter for special deals and prices
         </p>
-        <p className="footer-subscription-text">
-          You can unsubscribe at any time.
-        </p>
+
         <div className="input-areas">
           <form>
             <input
@@ -21,7 +19,9 @@ function Footer() {
               placeholder="Your Email"
               className="footer-input"
             />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <Button buttonStyle="btn--outline" onClick="none">
+              Subscribe
+            </Button>
           </form>
         </div>
       </section>
@@ -29,27 +29,27 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
+            <Link to="/">Mission and Vision</Link>
+            <Link to="/">Brand Story</Link>
             <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
+
             <Link to="/">Terms of Service</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
+            <Link to="/">Forums</Link>
             <Link to="/">Sponsorships</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <h2>Support</h2>
+            <Link to="/">Member Center</Link>
+            <Link to="/">Customer Service</Link>
+            <Link to="/">Downloads</Link>
+            <Link to="/">Warranty</Link>
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
@@ -64,7 +64,7 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link className="social-logo">
+            <Link to="/" className="social-logo">
               TechShop <i class="fas fa-robot" />
             </Link>
           </div>
@@ -73,22 +73,22 @@ function Footer() {
             © 2021 Made by Andrew Pascual
           </small>
           <div className="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="/"
+            <a
+              class="social-icon-link linkedin"
+              href="https://www.linkedin.com/in/andrewjpascual/"
               target="_blank"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
+              <i class="fab fa-linkedin" />
+            </a>
+            <a
+              class="social-icon-link github"
+              href="https://github.com/andrewjpascual"
               target="_blank"
-              aria-label="Instagram"
+              aria-label="GitHub"
             >
-              <i class="fab fa-instagram" />
-            </Link>
+              <i class="fab fa-github" />
+            </a>
           </div>
         </div>
       </section>

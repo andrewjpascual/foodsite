@@ -1,47 +1,53 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import image1 from "../../assets/images/img-9.jpg";
-import image2 from "../../assets/images/img-2.jpg";
+
+import pc1 from "../../assets/images/pc1.jpg";
+import pc2 from "../../assets/images/pc2.jpg";
+import keyboard1 from "../../assets/images/keyboard1.jpg";
+import laptop1 from "../../assets/images/laptop1.jpg";
+import headset1 from "../../assets/images/headset1.jpg";
+import mouse1 from "../../assets/images/mouse1.jpg";
+import laptop2 from "../../assets/images/laptop2.jpg";
 
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out some of our products!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={image1}
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
-              label="Adventure"
-              path="/services"
+              src={pc1}
+              text="Prebuilt RTX 3060 / Ryzen 5600X Gaming PC"
+              label="Prebuilt PC"
+              path="/products"
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
-              path="/services"
+              src={laptop2}
+              text="ASUS ROG Strix G17 Gaming Laptop"
+              label="Laptop"
+              path="/products"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-3.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
-              path="/services"
-            />
-            <CardItem
-              src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              src={keyboard1}
+              text="Corsair K70 RGB MK.2 Mechanical Gaming Keyboard"
+              label="Keyboard"
               path="/products"
             />
             <CardItem
-              src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
-              path="/sign-up"
+              src={headset1}
+              text="Logitech G733 Lightspeed Wireless Gaming Headset"
+              label="Headset"
+              path="/products"
+            />
+            <CardItem
+              src={mouse1}
+              text="Razer Lacehead Wireless Gaming Mouse"
+              label="Mouse"
+              path="/products"
             />
           </ul>
         </div>
