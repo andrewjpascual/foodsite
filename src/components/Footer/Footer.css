@@ -142,6 +142,10 @@
     width: 100%;
   }
 
+  .footer-link-items {
+    margin: 0px;
+  }
+
   .btn {
     width: 100%;
   }
