@@ -78,6 +78,7 @@ function Footer() {
               href="https://www.linkedin.com/in/andrewjpascual/"
               target="_blank"
               aria-label="Facebook"
+              rel="noreferrer"
             >
               <i class="fab fa-linkedin" />
             </a>
@@ -86,6 +87,7 @@ function Footer() {
               href="https://github.com/andrewjpascual"
               target="_blank"
               aria-label="GitHub"
+              rel="noreferrer"
             >
               <i class="fab fa-github" />
             </a>

@@ -23,14 +23,12 @@ video {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
-  font-family: "Cabin";
 }
 
 .hero-container > p {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  font-family: "Cabin";
 }
 
 .hero-btns {

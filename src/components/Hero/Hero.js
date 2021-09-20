@@ -3,7 +3,6 @@ import "../../App.css";
 import { Button } from "../Button/Button";
 import "./Hero.css";
 import video from "../../assets/videos/video-6.mp4";
-import "@fontsource/cabin";
 
 function Hero() {
   return (

@@ -2,10 +2,9 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 
+//import best images for cards
 import pc1 from "../../assets/images/pc1.jpg";
-import pc2 from "../../assets/images/pc2.jpg";
 import keyboard1 from "../../assets/images/keyboard1.jpg";
-import laptop1 from "../../assets/images/laptop1.jpg";
 import headset1 from "../../assets/images/headset1.jpg";
 import mouse1 from "../../assets/images/mouse1.jpg";
 import laptop2 from "../../assets/images/laptop2.jpg";
