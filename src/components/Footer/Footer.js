@@ -19,9 +19,7 @@ function Footer() {
               placeholder="Your Email"
               className="footer-input"
             />
-            <Button buttonStyle="btn--outline" onClick="none">
-              Subscribe
-            </Button>
+            <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
         </div>
       </section>
@@ -35,7 +33,7 @@ function Footer() {
 
             <Link to="/">Terms of Service</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>

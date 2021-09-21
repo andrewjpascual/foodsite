@@ -21,24 +21,23 @@ const Product = ({ product, onAddToCart }) => {
         image={product.media.source}
         title={product.name}
       />
-
       <CardContent>
         <div className={classes.cardContent}>
-          <Typography var="h5" gutterBottom>
+          <Typography gutterBottom variant="h5" component="h2">
             {product.name}
           </Typography>
-          <Typography var="h5" gutterBottom>
-            {product.price.formatted_with_symbol}
+          <Typography gutterBottom variant="h5" component="h2">
+            ${product.price.formatted}
           </Typography>
         </div>
         <Typography
           dangerouslySetInnerHTML={{ __html: product.description }}
-          var="body2"
+          variant="body2"
           color="textSecondary"
+          component="p"
         />
       </CardContent>
-
-      <CardActions disableSpacing className={classes.CardActions}>
+      <CardActions disableSpacing className={classes.cardActions}>
         <IconButton
           aria-label="Add to Cart"
           onClick={() => onAddToCart(product.id, 1)}

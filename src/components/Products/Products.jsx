@@ -7,6 +7,8 @@ import Product from "./Product/Product";
 const Products = ({ products, onAddToCart }) => {
   const classes = useStyles();
 
+  if (!products.length) return <p>Loading...</p>;
+
   return (
     <main className={classes.content}>
       <Grid container justifyContent="center" spacing={4}>

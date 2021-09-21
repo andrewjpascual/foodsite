@@ -37,12 +37,12 @@ const Navbar = ({ totalItems }) => {
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link
                 to="/products"
                 className="nav-links"
@@ -53,7 +53,7 @@ const Navbar = ({ totalItems }) => {
             </li>
             <li>
               <Link
-                to="/sign-up"
+                to="/cart"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
@@ -64,13 +64,15 @@ const Navbar = ({ totalItems }) => {
           {/* {button && <Button buttonStyle="btn--outline">Sign up</Button>} */}
 
           {button && (
-            <div className="shopping-button">
-              <IconButton aria-label="Show cart items">
-                <Badge badgeContent={totalItems} color="secondary">
-                  <ShoppingCart style={{ color: "white" }} />
-                </Badge>
-              </IconButton>
-            </div>
+            <IconButton
+              component={Link}
+              to="/cart"
+              aria-label="Show cart items"
+            >
+              <Badge badgeContent={totalItems} color="secondary">
+                <ShoppingCart style={{ color: "white" }} />
+              </Badge>
+            </IconButton>
           )}
         </div>
       </nav>
