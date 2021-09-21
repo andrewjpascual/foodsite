@@ -27,7 +27,7 @@ function Footer() {
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/">Mission and Vision</Link>
             <Link to="/">Brand Story</Link>
@@ -44,14 +44,14 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Support</h2>
             <Link to="/">Member Center</Link>
             <Link to="/">Customer Service</Link>
             <Link to="/">Downloads</Link>
             <Link to="/">Warranty</Link>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Social Media</h2>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
