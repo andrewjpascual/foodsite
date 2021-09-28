@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# React TechShop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my mock e-commerce site that holds high-end computer products and accessories.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+-  [About](#about)
+-  [Technologies](#technologies)
+-  [Features](#features)
+-  [Challenges](#challenges)
+-  [Inspiration](#inspiration)
+-  [To-Do](#to-do)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is my second project involving a REST API and features some of my abilities to create a professional brochure site. With this project, I aim to create a landing page where the user can get introduced to the type of products being sold, a products page being imported from the CommerceJS API, and a shopping cart for users to purchase the wanted products.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+Project is created with:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  ReactJS
+-  Bootstrap
+-  API (CommerceJS)
+-  Material UI
+-  HTML / CSS
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Landing page that is responsive for all screen sizes & mobile devices:
+- Products page that allows the store products to be fetched from CommerceJS
+- Cart page for the user to select some products and then attempt to purchase such items 
+- Functional Navbar, video hero, features some of the best products, and a footer 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Challenges
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Inspiration
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A large inspiration for this project is my desire to learn more about designing and creating professional sites with React, learning more about API's, my passion for technology, and making another fun project with another passion I am familiar with.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## To-Do
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+These would be my possible implementations in the future: 
+  - Fixing the products page to be cleaner and better styled.
+  - Fixing the card details for each product & shopping cart icon
+  - Fixing the checkout page so that users could have the ability to checkout potential items
