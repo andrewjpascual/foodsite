@@ -33,7 +33,7 @@ Project is created with:
 - Functional Navbar, video hero, features some of the best products, and a footer 
 
 ## Challenges
-
+One of the largest challenges was the implementation of a shopping cart and the products. I wanted to create a site where the users would first be greeted with full details of the potential computer products and have an interesting landing page similar to sites such as Corsair, Ryzen, or MSI. Then, I wanted to take the site further and implement a products page with mock products I would sell from my store and a shopping cart for users to have the ability to purchase desired supplies. Here, I struggled the most with the site because the shopping cart for each item will work however, the user must refresh the page. Additionally, for the shopping cart, users can delete or update items with the " + / - " symbols but again the user has to refresh the page. This is an issue I want to fix in the future and may require a full rework of the shop.
 
 
 ## Inspiration
